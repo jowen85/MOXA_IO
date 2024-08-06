@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="GPS.CustomControls.Serialport"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GPS.CustomControls"
+             mc:Ignorable="d" 
+             Height="140" Width="350" Background="White">
+
+    <GroupBox Grid.Row="0" Grid.Column="0" Header="{Binding Title}" FontWeight="Bold" BorderBrush="{DynamicResource GridLineBrush}" FontSize="14">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Row="0" Grid.Column="2" Name="btnConnect" Content="Connect" Height="30" Margin="3" Background="{DynamicResource NormalBackgroundBrush}" FontSize="15" Foreground="{DynamicResource NormalForegroundBrush}" Style="{DynamicResource styGlassButton}" Click="btnConnect_Click"/>
+
+            <ComboBox Grid.Row="0" Grid.Column="0" Name="cboPortName" Height="30" Margin="0,0,3,0" VerticalContentAlignment="Center" PreviewMouseLeftButtonDown="cboPortName_PreviewMouseLeftButtonDown"/>
+
+            <ComboBox Grid.Row="0" Grid.Column="1" Name="cboBoundrate" Height="30" Margin="3,0,0,0" VerticalContentAlignment="Center"/>
+
+            <TextBox Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Name="txtSend" Height="25" FontSize="15" PreviewMouseUp="ShowKeyboard"/>
+            <Button Grid.Row="1" Grid.Column="2" Name="btnSend" Content="Send" Height="30" Margin="3" Background="{DynamicResource NormalBackgroundBrush}" FontSize="15" Foreground="{DynamicResource NormalForegroundBrush}" Style="{DynamicResource styGlassButton}" Click="btnSend_Click"/>
+
+            <Border Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" BorderBrush="{DynamicResource GridLineBrush}" BorderThickness="1">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Column="0" FontSize="14" Content="Received :" VerticalContentAlignment="Center"/>
+                    <TextBox Grid.Column="1" Name="txtResult" FontSize="20" BorderThickness="0" VerticalContentAlignment="Center"/>
+                </Grid>
+            </Border>
+
+        </Grid>
+    </GroupBox>
+
+</UserControl>

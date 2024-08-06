@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MOXA_IO.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SuperAdmin_Username" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GreatechAdmin</Value>
+    </Setting>
+    <Setting Name="SuperAdmin_Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GreatechAdmin</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

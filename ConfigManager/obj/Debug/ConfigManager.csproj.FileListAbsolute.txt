@@ -1,0 +1,16 @@
+D:\SourceRepos\MOXA_IO2\MOXA_IO\ConfigManager\bin\Debug\ConfigManager.dll
+D:\SourceRepos\MOXA_IO2\MOXA_IO\ConfigManager\bin\Debug\ConfigManager.pdb
+D:\SourceRepos\MOXA_IO2\MOXA_IO\ConfigManager\obj\Debug\ConfigManager.csproj.AssemblyReference.cache
+D:\SourceRepos\MOXA_IO2\MOXA_IO\ConfigManager\obj\Debug\ConfigManager.Properties.Resources.resources
+D:\SourceRepos\MOXA_IO2\MOXA_IO\ConfigManager\obj\Debug\ConfigManager.csproj.GenerateResource.cache
+D:\SourceRepos\MOXA_IO2\MOXA_IO\ConfigManager\obj\Debug\ConfigManager.csproj.CoreCompileInputs.cache
+D:\SourceRepos\MOXA_IO2\MOXA_IO\ConfigManager\obj\Debug\ConfigManager.dll
+D:\SourceRepos\MOXA_IO2\MOXA_IO\ConfigManager\obj\Debug\ConfigManager.pdb
+D:\SourceRepos\MOXA_IO\ConfigManager\bin\Debug\ConfigManager.dll
+D:\SourceRepos\MOXA_IO\ConfigManager\bin\Debug\ConfigManager.pdb
+D:\SourceRepos\MOXA_IO\ConfigManager\obj\Debug\ConfigManager.csproj.AssemblyReference.cache
+D:\SourceRepos\MOXA_IO\ConfigManager\obj\Debug\ConfigManager.Properties.Resources.resources
+D:\SourceRepos\MOXA_IO\ConfigManager\obj\Debug\ConfigManager.csproj.GenerateResource.cache
+D:\SourceRepos\MOXA_IO\ConfigManager\obj\Debug\ConfigManager.csproj.CoreCompileInputs.cache
+D:\SourceRepos\MOXA_IO\ConfigManager\obj\Debug\ConfigManager.dll
+D:\SourceRepos\MOXA_IO\ConfigManager\obj\Debug\ConfigManager.pdb
