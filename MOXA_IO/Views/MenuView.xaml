@@ -73,13 +73,13 @@
                                                 <RowDefinition Height="20"/>
                                             </Grid.RowDefinitions>
 
-                                            <!--<Button Grid.Row="0" ToolTip="Connect IO Module" Width="60" Height="60" 
+                                            <Button Grid.Row="0" ToolTip="Connect IO Module" Width="60" Height="60" 
                                                     Style="{DynamicResource styGlassButton}" Foreground="{DynamicResource NormalForegroundBrush}" 
                                                     Background="{DynamicResource NormalBackgroundBrush}" Command="{Binding NavigateCommand}" CommandParameter="Connect">
                                                 
                                                 <Image Source="/Library;component/Icons/Icon_G_ON.png" IsEnabled="{Binding IsEnable_IO}">
                                                 </Image>
-                                            </Button>-->
+                                            </Button>
 
                                             <TextBlock Grid.Row="1" FontSize="14" FontWeight="DemiBold" Text="Connect"  VerticalAlignment="Center" HorizontalAlignment="Center" />
                                         </Grid>
